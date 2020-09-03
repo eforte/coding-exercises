@@ -1,22 +1,22 @@
-//'main' method must be in a class 'Rextester'.
-//openjdk version '11.0.5' 
-//Snipet URL: https://rextester.com/MVY7811 
+// openjdk version '11.0.5' 
+// Run online at: https://rextester.com/RYVTK19381 
+// NOTE: to run online 'main' method must be in a class 'Rextester'.
+
 import java.util.*;
 import java.lang.*;
 
-public class MergeSortedIntArrays
+class MergeSortedIntArrays
 {  
     /** Takes two int arrays a, b with sorted numbers and  
-     * merge the contents in to 3rd array c (no utility)
-     * such that c is also sorted.
+     * merge the contents in to 3rd array c ( \no utility)/*A = 1, 3, 5
      * E.g. 
      * a = 1, 3, 5
      * b = 2, 9
      * c = 1, 2, 3, 5, 9
      * 
      **/ 
-
-    public static void mergeArrays(int[] a, int[]b) {
+    public static void mergeArrays(int[] a, int[]b) 
+    {
         if (a == null || b == null) {
           System.out.println("Input error. One or more input array(s) is null");
           return;
@@ -43,10 +43,9 @@ public class MergeSortedIntArrays
                c[k++] = b[j++]; 
         
         System.out.println(Arrays.toString(c));
-}    
+    }    
     
-    public static void main(String args[])
-    {
+    public static void main(String args[]){
         int[] a = {1, 3, 5};
         int[] b = {2, 9};
         mergeArrays(a, b);
