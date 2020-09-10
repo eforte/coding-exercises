@@ -1,6 +1,7 @@
 /*
  * PostgreSQL v 13 
- * Run online at: https://www.db-fiddle.com/f/5bXNchkW4D8ffRjMXnE5yR/1
+ * Run online: https://www.db-fiddle.com/f/5bXNchkW4D8ffRjMXnE5yR/1
+ * Read therory: https://www.essentialsql.com/what-is-the-difference-between-an-inner-and-outer-join/
  */
 
 CREATE TABLE prices (
