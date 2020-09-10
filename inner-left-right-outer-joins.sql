@@ -2,6 +2,7 @@
  * PostgreSQL v 13 
  * Run online: https://www.db-fiddle.com/f/5bXNchkW4D8ffRjMXnE5yR/1
  * Read therory: https://www.essentialsql.com/what-is-the-difference-between-an-inner-and-outer-join/
+ *		 https://www.diffen.com/difference/Inner_Join_vs_Outer_Join
  */
 
 CREATE TABLE prices (
