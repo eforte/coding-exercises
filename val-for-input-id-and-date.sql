@@ -1,8 +1,6 @@
 /*
  * PostgreSQL v 13 
  * Run online: https://www.db-fiddle.com/f/pjMs26Nq8sJQuQWBKhzCe3/2
- * Read therory: https://www.essentialsql.com/what-is-the-difference-between-an-inner-and-outer-join/
- *		 https://www.diffen.com/difference/Inner_Join_vs_Outer_Join
  * Problem:
  * Create the sql query to determine what is the value corresponding to a given input date for a give id:
  * id
