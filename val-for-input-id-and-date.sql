@@ -35,7 +35,7 @@ VALUES
 (2, '2020-08-01', '2020-09-01', 4.0);
 
 /*
-Create the sql query to determine what is the value corresponding to a given input date for a give id. E.g. id = 1, date = 2020-08-02 show return 7.
+Gets the value corresponding to a given input date for a give id. E.g. id = 1, date = 2020-08-02 show return 7.0.
 */
 /*
 select val from dates where 
